@@ -1,0 +1,40 @@
+.navbar{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aqua;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+}
+.Icon{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+.notify{
+    display: flex;
+    position: relative;
+}
+.notcount{
+    position: absolute;
+    top: -8px;
+    right: -2px;
+    background-color: brown;
+    border-radius: 50%;
+}
+.ghanti{
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background-color: white;
+    color: black;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+}
+
